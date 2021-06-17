@@ -1,4 +1,4 @@
-FROM pataquets/stunnel:xenial
+FROM pataquets/stunnel:focal
 
 ADD client-mongodb /etc/stunnel/confs-available/
 RUN \
